@@ -15,7 +15,6 @@
   width: 100vw;
 }
 .index .index__logo {
-  background-image: url("logo.png");
   position: absolute;
   left: 4.7%;
   top: 9%;
@@ -23,7 +22,6 @@
   height: 79px;
 }
 .index .index__layer {
-  background: url("Layer 12.png");
   position: absolute;
   left: 1.7%;
   top: 170px;
@@ -37,9 +35,16 @@
   width: 250px;
   font-size: 32px;
 }
+.index .contacts-border {
+  position: absolute;
+  top: 10%;
+  right: 23%;
+  height: 23px;
+  border-right: 2px solid rgba(76, 52, 64, 0.3);
+}
 .index .ru {
   position: absolute;
-  left: 1260px;
+  right: 21%;
   top: 11%;
   width: 12px;
   height: 6px;
@@ -101,12 +106,12 @@
   top: 18%;
   font-family: "Myriad Pro";
   color: #4c3440;
-  border-bottom: 1px solid #b3aaaf;
 }
 .sidebar .menu .menu__main .menu__item {
   font-size: 21px;
-  line-height: 2;
+  line-height: 1.2;
   width: 200px;
+  margin-top: 30px;
 }
 .sidebar .menu .menu__footer {
   font-family: "Myriad Pro";
@@ -117,13 +122,14 @@
 }
 .sidebar .menu .menu__footer .menu__item {
   font-size: 21px;
-  line-height: 2;
+  line-height: 1.2;
   width: 200px;
+  margin-top: 30px;
 }
 .sidebar .switch-buttons {
   position: absolute;
   left: 56.5px;
-  top: 73%;
+  top: 75%;
 }
 .sidebar .switch-buttons .switch-button {
   border: 0;

@@ -6,9 +6,10 @@ html
     link(rel="stylesheet" href="index.css")
   body
     div.index
-      img.index__logo
-      img.index__layer 
+      img(src="logo.png", class="index__logo")
+      img(src="Layer_12.png", class="index__layer")
       div.index__contacts +7 (495) 662 76 77
+      div.contacts-border
       img(src="ru.png", class="ru")
       div.index__language_dropdown ru
       h1.index__title Сохранить и преумножить
@@ -21,6 +22,6 @@ html
           Специалисты Friedrich Wilhelm Raiffeisen в Австрии разрабатывают индивидуальные стратегии доверительного управления активами и осуществляют формирование индивидуального портфеля, отвечающего инвестиционным потребностям клиента.
           Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах.
           Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen в Вене
-      include sidebar.pug
+      include sidebar/sidebar.pug
       
     scripts(src="app.js")
