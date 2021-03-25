@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.index .index__text-two, .index .index__text, .index .index__title, .index .index__language_dropdown, .index .index__contacts {
+  font-family: Myriad Pro;
+  color: #4c3440;
+  line-height: 1.5;
+}
+
+.index {
+  background-color: #f9f9f8;
+  height: 100vh;
+  width: 100vw;
+}
+.index .index__logo {
+  background-image: url("logo.png");
+  position: absolute;
+  left: 4.7%;
+  top: 9%;
+  width: 243px;
+  height: 79px;
+}
+.index .index__layer {
+  background: url("Layer 12.png");
+  position: absolute;
+  left: 1.7%;
+  top: 170px;
+  width: 403px;
+  height: 550px;
+}
+.index .index__contacts {
+  position: absolute;
+  right: 452px;
+  top: 9%;
+  width: 250px;
+  font-size: 32px;
+}
+.index .ru {
+  position: absolute;
+  left: 1260px;
+  top: 11%;
+  width: 12px;
+  height: 6px;
+  opacity: 0.5;
+}
+.index .index__language_dropdown {
+  position: absolute;
+  right: 362px;
+  top: 9%;
+  font-size: 21px;
+  margin: 9px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+.index .index__title {
+  position: absolute;
+  left: 27%;
+  top: 25%;
+  font-size: 48px;
+}
+.index .index__text {
+  position: absolute;
+  left: 27%;
+  top: 36%;
+  width: 321px;
+  height: 440px;
+  font-size: 18px;
+  text-align: left;
+}
+.index .index__text-two {
+  position: absolute;
+  left: 50%;
+  top: 36%;
+  width: 317px;
+  height: 431px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.sidebar {
+  position: absolute;
+  right: 0;
+  width: 317px;
+  height: 100vh;
+  border: 0;
+  background-color: #f2f1f1;
+}
+.sidebar .menu .menu__header {
+  position: absolute;
+  left: 56.5px;
+  top: 10%;
+  font-size: 31px;
+  font-family: "Myriad Pro";
+  color: rgba(76, 52, 64, 0.502);
+}
+.sidebar .menu .menu__main {
+  position: absolute;
+  left: 56.5px;
+  top: 18%;
+  font-family: "Myriad Pro";
+  color: #4c3440;
+  border-bottom: 1px solid #b3aaaf;
+}
+.sidebar .menu .menu__main .menu__item {
+  font-size: 21px;
+  line-height: 2;
+  width: 200px;
+}
+.sidebar .menu .menu__footer {
+  font-family: "Myriad Pro";
+  color: #4c3440;
+  position: absolute;
+  left: 56.5px;
+  top: 55%;
+}
+.sidebar .menu .menu__footer .menu__item {
+  font-size: 21px;
+  line-height: 2;
+  width: 200px;
+}
+.sidebar .switch-buttons {
+  position: absolute;
+  left: 56.5px;
+  top: 73%;
+}
+.sidebar .switch-buttons .switch-button {
+  border: 0;
+  outline: none;
+  background-color: #b3aaaf;
+  height: 36px;
+  width: 117px;
+}
+.sidebar .switch-buttons .switch-button-two {
+  border-color: #b3aaaf;
+  height: 36px;
+  width: 117px;
+}
+.sidebar .download {
+  position: absolute;
+  left: 56.5px;
+  top: 87%;
+  height: 32px;
+  width: 24px;
+}
+.sidebar .arrow {
+  position: absolute;
+  left: 61.5px;
+  top: 88%;
+  height: 14px;
+  width: 14px;
+}
+.sidebar .sidebar__pdf-link {
+  position: absolute;
+  left: 89.5px;
+  top: 87%;
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: #4c3440;
+  line-height: 2;
+}
+.sidebar .sidebar__info {
+  position: absolute;
+  left: 56.5px;
+  top: 93%;
+  font-size: 12px;
+  font-family: "Myriad Pro";
+  color: rgba(0, 0, 0, 0.502);
+  line-height: 2;
+}

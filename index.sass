@@ -1,0 +1,75 @@
+*
+  margin: 0
+  padding: 0
+
+%text-standart
+  font-family: Myriad Pro
+  color: #4c3440
+  line-height: 1.5
+
+.index
+  background-color: #f9f9f8
+  height: 100vh
+  width: 100vw
+  .index__logo
+    background-image: url("logo.png")
+    position: absolute
+    left: 4.7%
+    top: 9%
+    width: 243px
+    height: 79px
+  .index__layer
+    background: url("Layer 12.png")
+    position: absolute
+    left: 1.7%
+    top: 170px
+    width: 403px
+    height: 550px
+  .index__contacts
+    position: absolute
+    right: 135px + 317px
+    top: 9%
+    width: 250px
+    font-size: 32px
+    @extend %text-standart
+  .ru
+    position: absolute
+    left: 1260px
+    top: 11%
+    width: 12px
+    height: 6px
+    opacity: 0.5
+  .index__language_dropdown
+    position: absolute
+    right: 45px + 317px
+    top: 9%
+    font-size: 21px
+    margin: 9px
+    @extend %text-standart
+    text-transform: uppercase
+    opacity: 0.5
+  .index__title
+    position: absolute
+    left: 27%
+    top: 25%
+    font-size: 48px
+    @extend %text-standart
+  .index__text
+    position: absolute
+    left: 27%
+    top: 36%
+    width: 321px
+    height: 440px
+    font-size: 18px
+    @extend %text-standart
+    text-align: left
+  .index__text-two
+    position: absolute
+    left: 50%
+    top: 36%
+    width: 317px
+    height: 431px
+    font-size: 18px
+    @extend %text-standart
+    text-align: left
+@import sidebar/sidebar

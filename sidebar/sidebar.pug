@@ -1,0 +1,20 @@
+div.sidebar
+  div.menu
+    h2.menu__header Сохранить и преумножить
+    nav.menu__main
+      ul
+        - var items = ["Получить финансирование","Решения для вашего бизнеса","Расчетно-кассовое обслуживание","Решения для вашей семьи/Консалтинг"]
+        for item in items
+          li.menu__item= item
+    nav.menu__footer
+      ul
+        - var items = ["О нас","Контактная информация"]
+        for item in items
+          li.menu__item= item
+  div.switch-buttons
+    button.switch-button Raiffeisen-Online
+    button.switch-button-two R-Dealer
+  img(src="download.png", class="download")
+  img(src="arrow.png", class="arrow")
+  div.sidebar__pdf-link Скачать «Услуги FWR»
+  div.sidebar__info © 2009-2017 АО «Райффайзенбанк»
