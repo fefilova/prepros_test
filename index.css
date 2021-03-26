@@ -34,6 +34,7 @@
   top: 9%;
   width: 250px;
   font-size: 32px;
+  text-decoration: none;
 }
 .index .contacts-border {
   position: absolute;
@@ -183,6 +184,7 @@
   font-family: "Myriad Pro";
   color: #4c3440;
   line-height: 2;
+  text-decoration: none;
 }
 .sidebar .sidebar__info {
   position: absolute;
