@@ -103,17 +103,23 @@
 }
 .sidebar .menu .menu__main {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   left: 56.5px;
   top: 18%;
+  width: 200px;
+  margin-top: 40px;
   font-family: "Myriad Pro";
   color: #4c3440;
 }
 .sidebar .menu .menu__main .menu__item {
   font-size: 21px;
-  line-height: 1.2;
-  width: 200px;
-  margin-top: 30px;
+  line-height: 1.5;
   list-style-type: none;
+  text-decoration: none;
+  color: #4c3440;
+  align-self: auto;
 }
 .sidebar .menu .menu-border {
   position: absolute;
@@ -127,14 +133,16 @@
   color: #4c3440;
   position: absolute;
   left: 56.5px;
-  top: 55%;
+  top: 59%;
 }
 .sidebar .menu .menu__footer .menu__item {
   font-size: 21px;
-  line-height: 1.2;
+  line-height: 1.5;
   width: 200px;
-  margin-top: 30px;
+  margin-top: 50px;
   list-style-type: none;
+  text-decoration: none;
+  color: #4c3440;
 }
 .sidebar .switch-buttons {
   position: absolute;

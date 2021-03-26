@@ -1,0 +1,16 @@
+mixin menu(...items)
+  div.menu
+    h2.menu__header Сохранить и преумножить
+    nav.menu__main
+      ul
+        each item in items
+          li
+            a(href="#", class="menu__item")= item
+    div.menu-border
+    nav.menu__footer
+      mixin item(name)
+      ul
+        li
+          a(href="#", class="menu__item")= item
+        +item("О нас")
+        +item("Контактная информация")

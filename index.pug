@@ -1,3 +1,4 @@
+include sidebar/sidebar.pug
 doctype html
 html
   head
@@ -22,6 +23,6 @@ html
           Специалисты Friedrich Wilhelm Raiffeisen в Австрии разрабатывают индивидуальные стратегии доверительного управления активами и осуществляют формирование индивидуального портфеля, отвечающего инвестиционным потребностям клиента.
           Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах.
           Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen в Вене
-      include sidebar/sidebar.pug
+      +sidebar("download", "arrow")
       
     scripts(src="app.js")
